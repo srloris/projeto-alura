@@ -11,11 +11,32 @@
 body {
     background-color: var(--cor-fundo);
 }
+/* Estilo do Cabeçalho */
+.cabecalho {
+    max-width: 1500px;
+}
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.cabecalho__menu__links {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    font-family: var(--font-padrao);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.cabecalho__menu__links:hover {
+    color: var(--cor-texto);
+}
+/* Estido do Corpo */
 .apresentacao {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 8.62% 0;
+    padding: 5% 0 8% 0;
     color: var(--cor-texto);
     font-family: var(--font-padrao);
 }
@@ -67,12 +88,13 @@ body {
     filter: brightness(0%);
     transition: 0.7s;
 }
+/* Estilo do Rodapé */
 .rodape {
     color: var(--cor-fundo);
     background-color: var(--cor-destaque);
     text-align: center;
-    padding: 1.2rem;
+    padding: 1rem;
     font-family: var(--font-padrao);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
