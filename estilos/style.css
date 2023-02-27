@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    padding: 8.62% 0;
     color: var(--cor-texto);
     font-family: var(--font-padrao);
 }
@@ -66,4 +66,13 @@ body {
 .apresentacao__links__link:hover img {
     filter: brightness(0%);
     transition: 0.7s;
+}
+.rodape {
+    color: var(--cor-fundo);
+    background-color: var(--cor-destaque);
+    text-align: center;
+    padding: 1.2rem;
+    font-family: var(--font-padrao);
+    font-size: 1.3rem;
+    font-weight: bold;
 }
