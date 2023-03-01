@@ -39,7 +39,7 @@ body {
     padding: 5% 0 8% 0;
 }
 .apresentacao__conteudo {
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -47,14 +47,14 @@ body {
 .apresentacao__conteudo__titulo {
     font-family: var(--font-destaque);
     font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     line-height: 2.7rem;
 }
 .titulo-destaque {
     color: var(--cor-destaque);
 }
 .apresentacao__conteudo__texto {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.6rem;
 }
 .apresentacao__links{
@@ -73,7 +73,7 @@ body {
     font-size: 1.3rem;
     font-weight: bold;
     width: 45%;
-    padding: 15px 0;
+    padding: 12px 0;
     border: 2px solid var(--cor-destaque);
     border-radius: 10px;
 }
@@ -85,6 +85,9 @@ body {
 .apresentacao__links__link:hover img {
     filter: brightness(0%);
     transition: 0.7s;
+}
+.imagem {
+    width: 30vw;
 }
 /* Estilo do Rodapé */
 .rodape {
