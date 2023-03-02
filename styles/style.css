@@ -86,8 +86,8 @@ body {
     filter: brightness(0%);
     transition: 0.7s;
 }
-.imagem {
-    width: 30vw;
+.apresentacao__imagem {
+    width: 35%;
 }
 /* Estilo do Rodapé */
 .rodape {
