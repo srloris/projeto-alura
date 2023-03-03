@@ -120,3 +120,18 @@ strong {
         width: 50%;
     }
 }
+@media (max-width: 720px) {
+    .cabecalho__menu{
+        margin: 8% 0 3% 0;
+        justify-content: center;
+    }
+    .apresentacao__conteudo {
+        width: 75%;
+    }
+    .apresentacao__links__link {
+        width: 100%;
+    }
+    .apresentacao__imagem {
+        width: 65%;
+    }
+}
