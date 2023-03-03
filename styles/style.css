@@ -22,7 +22,7 @@ strong {
 .cabecalho__menu {
     display: flex;
     gap: 80px;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 4%;
 }
 .cabecalho__menu__links {
@@ -103,4 +103,20 @@ strong {
     padding: 1rem;
     font-size: 1.2rem;
     font-weight: bold;
+}
+@media (max-width: 1200px) {
+    .cabecalho__menu{
+        margin: 5% 0 1% 0;
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .apresentacao__conteudo {
+        width: 65%;
+    }
+    .apresentacao__imagem {
+        width: 50%;
+    }
 }
