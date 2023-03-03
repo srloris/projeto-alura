@@ -119,6 +119,10 @@ strong {
     .apresentacao__imagem {
         width: 50%;
     }
+    .rodape {
+        padding: 0.5rem;
+        margin-top: 8%;
+    }
 }
 @media (max-width: 720px) {
     .cabecalho__menu{
