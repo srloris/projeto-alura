@@ -122,7 +122,7 @@ strong {
 }
 @media (max-width: 720px) {
     .cabecalho__menu{
-        margin: 8% 0 3% 0;
+        margin: 10% 0 4% 0;
         justify-content: center;
     }
     .apresentacao__conteudo {
