@@ -15,4 +15,4 @@ Olá, Bem vindo ao meu projeto de portfólio.
 
 ### Lorenzo Nunez
 
-### Linkedin: https://www.linkedin.com/in/lorenzo-bastos-nunez/
+#### Linkedin: https://www.linkedin.com/in/lorenzo-bastos-nunez/
